@@ -5,6 +5,12 @@
   font-family: 'Cabin', Arial, Helvetica, sans-serif;
 }
 
+body {
+  width: 100vw;
+  background: #014201;
+  height: fit-content;
+}
+
 .flex {
   display: flex;
 }
@@ -16,14 +22,18 @@ h2 {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-header {
+.top {
   width: 100vw;
-  height: fit-content;
-  padding: 35px;
-  background: #fff;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  height: 70vh;
+  object-fit: cover;
 }
-header img {
-  height: 55px;
+.top.gradient {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(1, 66, 1, 1) 0%,
+    rgba(255, 255, 255, 0) 67%
+  );
 }
