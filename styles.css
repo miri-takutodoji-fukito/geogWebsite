@@ -17,7 +17,7 @@ body {
 }
 
 .spacer {
-  height: var(--gap);
+  height: 500px;
 }
 
 h1 {
