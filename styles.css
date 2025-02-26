@@ -36,4 +36,15 @@ h2 {
     rgba(1, 66, 1, 1) 0%,
     rgba(255, 255, 255, 0) 67%
   );
+  z-index: 1;
+}
+.top.text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 60vh;
+  padding-left: 10vw;
+  color: white;
+  font-size: 40px;
+  z-index: 2;
 }
