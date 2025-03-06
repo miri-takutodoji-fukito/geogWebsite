@@ -112,16 +112,16 @@ h3.top.text {
   padding-top: 10px;
 }
 
+.contentbox.text.solution {
+  padding-top: 60px;
+}
+
 .contentbox.text.solution h2.title,
 .contentbox.text.solution p {
   text-align: center;
 }
 .contentbox.text.solution h2.title {
   font-size: 40px;
-}
-.contentbox.text.solution.h h2.title {
-  font-size: 30px;
-  padding-top: 30px;
 }
 
 .form {
