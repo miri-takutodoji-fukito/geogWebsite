@@ -4,6 +4,7 @@
   box-sizing: border-box;
   color: white;
   font-family: 'Cabin', Arial, Helvetica, sans-serif;
+  overflow: scroll;
 }
 
 body {
@@ -124,6 +125,33 @@ h3.top.text {
   font-size: 40px;
 }
 
+.team {
+  display: flex;
+  gap: 15px;
+  padding: 1vw 10vw;
+  height: fit-content;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 300px;
+  gap: 20px;
+}
+.member img {
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+}
+.member h2 {
+  text-align: center;
+}
+
 .form {
   padding: 3vw 10vw;
   width: 100vw;
@@ -133,4 +161,20 @@ iframe {
   height: 85vh;
   border-bottom-right-radius: 50px;
   border-top-left-radius: 50px;
+}
+
+table {
+  padding: 1vw 10vw;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+td p {
+  font-size: 15px;
 }
